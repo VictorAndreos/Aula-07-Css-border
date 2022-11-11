@@ -1,0 +1,48 @@
+/*
+    
+
+    forma colocando cor em cada borda lateral separada
+
+    border-top-color: blue ;
+
+    border-bottom-color:green;
+                                 obs: não fazer assim pois da muito trabalho pra fazer manutenção
+    border-left-color:orange ;
+
+    border-right-color:yellow ;
+
+    forma colocando o mesmo valor das bordas em topo e embaixo (20px) e nas laterais 
+                        
+    border-style: solid; 
+    border-width: 20px;     obs: não fazer assim pois da muito trabalho pra fazer manutenção       
+    border-color: violet;
+
+    forma colocando a mesma cor em todos os lados ao mesmo (correto)
+
+    border: 20px solid violet; 
+   
+
+    forma colocando o mesmo cor em todos os lados ao mesmo tempo (Correto)
+
+    border-color:blue green orange yellow;
+    
+
+*/
+html{
+    background-color: black;
+}
+
+
+p{
+    
+    border: 20px solid #ff0095;
+    color: beige;
+
+}
+
+h1{
+    border-style: solid; 
+    border-width: 20px;
+    border-color:aqua #ff0095 blueviolet #ccc;
+    color: #ff0095;
+}
